@@ -111,6 +111,10 @@
   .dl_wrapper dt {
     display: block;
   }
+  .bg_2 ul li {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .bg_3 ul {
     flex-wrap: wrap;
   }
