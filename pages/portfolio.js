@@ -12,7 +12,7 @@ import Fade from 'react-reveal/Fade'
 function portfolio() {
 
     return (
-      <Layout title="Portfolio Page" description="ポートフォリオのページです。このページでは、今までの実績などを掲載しています。">
+      <Layout title="Portfolio" description="ポートフォリオのページです。このページでは、今までの実績などを掲載しています。">
         <Fade>
           <div className="text-5xl font-bold py-14 text-center">
           Portfolio

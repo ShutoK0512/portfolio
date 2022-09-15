@@ -12,7 +12,7 @@ import Fade from 'react-reveal/Fade'
 
 function about() {
     return (
-     <Layout title="About Page" description="角についてのページです。">
+     <Layout title="About" description="角についてのページです。">
        <Fade>
        <div className="text-5xl font-bold py-14 text-center">
         About
