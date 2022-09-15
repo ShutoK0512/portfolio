@@ -115,6 +115,10 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .bg_2 ul li span {
+    margin-bottom: 0.5rem;
+  }
   .bg_3 ul {
     flex-wrap: wrap;
   }
