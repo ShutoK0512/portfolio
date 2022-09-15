@@ -8,7 +8,7 @@ function Items({data}) {
     return (
     <>
         <div key={data.id} className="max-w-sm rounded overflow-hidden shadow-lg flex flex-col justify-between">
-            <Image className="w-full" src={data.img} alt="Sunset in the mountains" width={400} height={250}/>
+            <Image className="w-full" src={data.img} alt="" width={400} height={250}/>
             <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">{data.title}</div>
                 <p className="text-gray-700 text-base">{data.description}</p>
