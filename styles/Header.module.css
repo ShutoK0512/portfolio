@@ -1,0 +1,19 @@
+.nav {
+  @apply bg-neutral-700;
+}
+
+.items {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.2rem;
+}
+
+.items li {
+  color: #fff;
+}
+
+.items li:hover {
+  color: rgb(168, 168, 168);
+}

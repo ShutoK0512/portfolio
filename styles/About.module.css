@@ -1,0 +1,117 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+}
+
+.bg_1 .container > div {
+  width: 50%;
+}
+
+.container h2 {
+  @apply text-3xl;
+  margin-bottom: 1.6rem;
+  border-bottom: 1px solid #d5d5d5;
+}
+.bg_1 {
+  background-color: #f8f8f8;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.dl_wrapper dt {
+  background-color: gray;
+  color: #fff;
+  display: inline-block;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+  margin-right: 1.6rem;
+  width: 80px;
+  text-align: center;
+}
+
+.dl_wrapper dd {
+  display: inline-block;
+  margin-bottom: 1.6rem;
+}
+
+.bg_1 {
+  background-color: #f8f8f8;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.bg_2 {
+  background-color: #ffffff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.bg_2 ul li span {
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.bg_2 .badge_1 span {
+  @apply bg-rose-500;
+}
+
+.bg_2 .badge_2 span {
+  @apply bg-indigo-500;
+}
+
+.bg_2 .badge_3 span {
+  @apply bg-blue-500;
+}
+
+.bg_2 .badge_4 span {
+  @apply bg-sky-500;
+}
+
+.bg_2 .badge_5 span {
+  @apply bg-cyan-500;
+}
+
+.bg_2 .badge_6 span {
+  @apply bg-teal-500;
+}
+
+.bg_3 {
+  background-color: #f8f8f8;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.bg_3 ul {
+  display: flex;
+}
+
+.bg_3 ul li {
+  box-shadow: 10px 10px 20px 5px rgb(0 0 0 / 10%);
+  margin: 1rem;
+}
+
+.bg_4 {
+  background-color: #ffffff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 500px) {
+  .bg_1 .container {
+    flex-direction: column;
+  }
+  .bg_1 .container > div {
+    width: 100%;
+  }
+  .dl_wrapper dt {
+    display: block;
+  }
+  .bg_3 ul {
+    flex-wrap: wrap;
+  }
+}
