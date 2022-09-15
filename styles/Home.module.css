@@ -143,8 +143,15 @@
 }
 
 @media (max-width: 600px) {
+  .hero {
+    margin-bottom: 100px;
+  }
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+
+  .image {
+    top: 50%;
   }
 }
