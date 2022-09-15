@@ -14,7 +14,7 @@ import Img_e2 from '../../public/images/others_02.jpg'
 import Img_e3 from '../../public/images/others_03.jpg'
 
 
-export const data_1 = [
+const data_1 = [
     {
         id: 1,
         img: Img,
@@ -53,7 +53,7 @@ export const data_1 = [
 ]
     
     
-export const data_2 = [
+const data_2 = [
     {
         id: 1,
         img: Img_w,
@@ -85,7 +85,7 @@ export const data_2 = [
 ]
 
 
-export const data_3 = [
+const data_3 = [
     {
         id: 1,
         img: Img_e,
@@ -129,7 +129,8 @@ export const data_3 = [
         ]
     }
 
-
-
-    
 ]
+
+
+
+export {data_1, data_2, data_3}
