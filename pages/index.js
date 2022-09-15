@@ -9,7 +9,7 @@ import img from '../public/images/top-img.jpg'
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout title="Home">
       <div className={styles.hero}>
       
         <div className={styles.image}>
