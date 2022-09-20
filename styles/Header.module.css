@@ -1,5 +1,5 @@
 .nav {
-  @apply bg-neutral-700;
+  background-color: rgb(64 64 64);
 }
 
 .items {

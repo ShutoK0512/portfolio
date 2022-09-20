@@ -6,7 +6,7 @@ import styles from '../styles/Layout.module.css'
 
 function Layout({ title, description, children}) {
     return (
-        <>
+        <div className={styles.main}>
             <Head>
             <title>{title}</title>
             <meta name="description" content={description} />
@@ -15,8 +15,8 @@ function Layout({ title, description, children}) {
             <div>
             {children}
             </div>
-            {/* <Footer /> */}
-        </>
+            <Footer />
+        </div>
     )
 }
 

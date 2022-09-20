@@ -25,8 +25,22 @@ export default function Home() {
         <h1>角 修人</h1>
         <p>ようこそ角 修人のポートフォリオへ。<br />もし、よろしければページ内をご覧ください。</p>
 
+        <div className={styles.badge_wrapper}>
+          <h2>このサイトの使用ツール</h2>
+          <ul>
+              <li className={styles.badge_1}>
+                <span>Adobe XD</span>
+                <span>Next.js</span>
+                <span>Tailwindcss</span>
+                <span>daisyUI</span>
+                <span>Github</span>
+                <span>Vercel</span>
+                </li>
+          </ul>
+        </div>
+
         <Link href="/about">
-                    <button className="bg-neutral-700 hover:bg-neutral-600 text-white font-bold py-2 px-4 mt-5 rounded">About me</button>
+          <button className="btn btn-outline py-2 px-4 mt-5 rounded">About me</button>
         </Link>
         </Zoom>
       </div>

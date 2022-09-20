@@ -16,7 +16,7 @@ function Items({data}) {
             <div className="px-6 pt-4 pb-2">
                 <Link href={data.link}>
                     <a target="_blank">
-                    <button className="bg-neutral-700 hover:bg-neutral-600 text-white font-bold py-2 px-4 rounded w-full"><FaExternalLinkAlt style={{display: "inline"}}/> More</button>
+                    <button className="btn btn-outline py-2 px-4 mt-5 rounded w-full btn-sm md:btn-md"><FaExternalLinkAlt style={{display: "inline"}} /> <span className="pl-3">More</span></button>
                     </a>
                 </Link>
             
