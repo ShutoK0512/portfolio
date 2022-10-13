@@ -18,8 +18,8 @@ function Items({data}) {
                         <div className={styles.badge_wrapper}>
                         <h2>このサイトの使用ツール</h2>
                         <ul className="flex flex-wrap justify-center">
-                            {tools.map((tool) => (
-                                <li className={styles.badge_1}>
+                            {tools.map((tool, index) => (
+                                <li key={index} className={styles.badge_1}>
                                 <span>{tool}</span>
                                 </li>
                             ))}
