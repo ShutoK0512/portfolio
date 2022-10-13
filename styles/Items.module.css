@@ -1,0 +1,18 @@
+.badge_wrapper h2 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.badge_wrapper {
+  margin-top: 2rem;
+}
+.badge_wrapper ul li span {
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.badge_1 span {
+  @apply bg-indigo-500;
+}

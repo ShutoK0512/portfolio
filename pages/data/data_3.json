@@ -3,14 +3,14 @@
         "id": 1,
         "img": "/images/others_01.jpg",
         "title": "Starbucks",
-        "description": "API動作の実装で上記のアプリを作成",
+        "description": "API動作の実装で上記のアプリを作成。",
         "link": "https://starbucks-app.vercel.app/",
         "sitedesc": "使用ツール及びフレームワーク",
         "tools": [
-            "フレームワーク: Next.js",
-            "プラットフォーム: Vercel",
-            "APIテストツール: Postman",
-            "Designツール: Adobe XD"
+            "Next.js",
+            "Vercel",
+            "Postman",
+            "Adobe XD"
         ]
     },
     {
@@ -21,10 +21,10 @@
         "link": "https://house-markectplace.vercel.app/",
         "sitedesc": "使用ツール及びフレームワーク",
         "tools": [
-            "フレームワーク: React.js",
-            "プラットフォーム: Vercel",
-            "データベース: Google Firebase",
-            "APIテストツール: Postman"
+            "React.js",
+            "Vercel",
+            "Google Firebase",
+            "Postman"
         ]
     },
     {
@@ -35,10 +35,23 @@
         "link": "https://shutosupprtdesk.herokuapp.com/",
         "sitedesc:": "使用ツール及びフレームワーク",
         "tools": [
-            "フレームワーク: React.js",
-            "プラットフォーム: Heroku",
-            "データベース: MongoDB",
-            "APIテストツール: Postman"
+            "React.js",
+            "Heroku",
+            "MongoDB",
+            "Postman"
+        ]
+    },
+    {
+        "id": 4,
+        "img": "/images/others_04.jpg",
+        "title": "Clone Google",
+    "description": "Googleが提供しているGoogle APIを使用して、クローンgoogleを作成。",
+        "link": "https://google-v1-mocha.vercel.app/",
+        "sitedesc:": "使用ツール及びフレームワーク",
+        "tools": [
+            "Next.js",
+            "Vercel",
+            "Google Search API"
         ]
     }
 
